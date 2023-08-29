@@ -11,21 +11,4 @@ export class PostComponent {
   postImageURL: string = "";
   postURL: string = "";
   isChecked: boolean = false;
-
-
-  onPostTitle(){
-    this.postTitle;
-  }
-
-  onPostDetails(){
-    this.postDetails;
-  }
-
-  onPostImageURL(){
-    this.postImageURL;
-  }
-
-  onPostURL(){
-    this.postURL;
-  }
 }

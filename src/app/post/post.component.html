@@ -1,13 +1,13 @@
 <div>
     <h1>Post Form</h1>
 
-    <input type="text" placeholder="Post Title" [(ngModel)] = "postTitle" (keyup)="onPostTitle()">
+    <input type="text" placeholder="Post Title" [(ngModel)] = "postTitle">
 
-    <textarea name="" id="" cols="30" rows="10" placeholder="Post Details" [(ngModel)] = "postDetails" (keyup)="onPostDetails()"></textarea>
+    <textarea name="" id="" cols="30" rows="10" placeholder="Post Details" [(ngModel)] = "postDetails"></textarea>
 
-    <input type="text" placeholder="Post Image URL" [(ngModel)] = "postImageURL" (keyup)="onPostImageURL()">
+    <input type="text" placeholder="Post Image URL" [(ngModel)] = "postImageURL" >
 
-    <input type="text" placeholder="Post URL" [(ngModel)] = "postURL" (keyup)="onPostURL()">
+    <input type="text" placeholder="Post URL" [(ngModel)] = "postURL">
 
     <span><input type="checkbox" [(ngModel)]="isChecked"> Add Background</span>
 
